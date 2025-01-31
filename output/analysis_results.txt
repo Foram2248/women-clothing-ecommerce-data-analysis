@@ -1,0 +1,161 @@
+DuckDB Analysis Results:
+
+Query 1 Results:
+      sku  total_revenue  total_orders
+0     799        79182.0           283
+1     708        29146.0            99
+2    9699         4896.0            16
+3     239         4199.0            16
+4      77         4055.0            16
+5    bobo         3595.0            16
+6      89         3341.0            13
+7      79         2817.0             9
+8    3799         2390.0             9
+9     218         2204.0             7
+10   1719         2052.0             8
+11  61399         1112.0             4
+12    339         1084.0             4
+13   3081          990.0             5
+14   2499          962.0             4
+15    897          804.0             3
+16    127          714.0             3
+17   8499          699.0             3
+18   1499          574.0             2
+19    539          536.0             2
+20    229          414.0             2
+21    628          268.0             1
+22    439          258.0             1
+23     29          227.0             1
+
+Query 2 Results:
+       size  total_sold
+0        XL         164
+1         M          92
+2         L          91
+3  One Size          45
+4       2XL          43
+5       3XL          40
+6      None          37
+7       4XL           9
+8  One SIze           5
+9         S           1
+
+Query 3 Results:
+     month  total_revenue
+0  2022-06        25259.0
+1  2022-07        32175.0
+2  2022-08        42513.0
+3  2022-09        46572.0
+
+Query 4 Results:
+       size  avg_revenue
+0       4XL   356.111111
+1       2XL   288.883721
+2       3XL   282.525000
+3         M   279.945652
+4        XL   279.682927
+5         L   278.703297
+6  One Size   262.066667
+7      None   259.351351
+8         S   227.000000
+9  One SIze   198.000000
+
+Query 5 Results:
+    sku  total_revenue
+0   799        79182.0
+1   708        29146.0
+2  9699         4896.0
+3   239         4199.0
+4    77         4055.0
+
+Query 6 Results:
+              color  total_revenue  total_sales
+0         Dark Blue       112364.0          397
+1        Light Blue         7337.0           26
+2             Black         4428.0           14
+3         Grey Wash         2390.0            9
+4          Mid Wash         2043.0            8
+5         Navy Blue         1693.0            7
+6                 B         1491.0            6
+7         Dark Wash         1311.0            5
+8                 C          975.0            4
+9              Blue          878.0            4
+10             Gray          815.0            3
+11                A          815.0            3
+12        Thin Blue          785.0            3
+13             Rust          781.0            3
+14            Brown          691.0            3
+15            White          679.0            3
+16            Cream          610.0            2
+17                D          516.0            2
+18            Green          499.0            2
+19     Blue Stripes          496.0            2
+20           Matcha          456.0            2
+21    Midnight Blue          396.0            2
+22            Mocha          288.0            1
+23           Yellow          278.0            1
+24         Skintone          278.0            1
+25       Thin Black          268.0            1
+26                E          258.0            1
+27     Gray Stripes          255.0            1
+28    Black Stripes          248.0            1
+29          Mustard          245.0            1
+30       Light Wash          238.0            1
+31       Red Orange          228.0            1
+32             Pink          228.0            1
+33       Light Gray          228.0            1
+34    920 Navy blue          227.0            1
+35        922 Black          207.0            1
+36   922 Army green          207.0            1
+37  Cornflower Blue          198.0            1
+38           Maroon          191.0            1
+
+Query 7 Results:
+     order_id  revenue
+0          15      899
+1          84      576
+2         164      576
+3         242      576
+4          83      576
+..        ...      ...
+204        58      287
+205        61      287
+206       107      287
+207       117      286
+208       118      286
+
+[209 rows x 2 columns]
+
+Query 8 Results:
+            day  total_revenue
+0    2022-06-01          556.0
+1    2022-06-02          288.0
+2    2022-06-03          854.0
+3    2022-06-05          546.0
+4    2022-06-06         4338.0
+..          ...            ...
+111  2022-09-26          834.0
+112  2022-09-27          874.0
+113  2022-09-28          870.0
+114  2022-09-29          854.0
+115  2022-09-30         1596.0
+
+[116 rows x 2 columns]
+
+Query 9 Results:
+       size  median_price
+0       2XL         298.0
+1       4XL         278.0
+2       3XL         278.0
+3         M         278.0
+4        XL         278.0
+5         L         269.0
+6      None         258.0
+7  One Size         249.0
+8         S         227.0
+9  One SIze         198.0
+
+Query 10 Results:
+   correlation_quantity_revenue
+0                      0.619357
+

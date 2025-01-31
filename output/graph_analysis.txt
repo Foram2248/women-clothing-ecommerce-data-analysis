@@ -1,0 +1,64 @@
+DuckDB Analysis Results:
+
+Total Revenue by Product (Top 10):
+    sku  total_revenue
+0   799        79182.0
+1   708        29146.0
+2  9699         4896.0
+3   239         4199.0
+4    77         4055.0
+5  bobo         3595.0
+6    89         3341.0
+7    79         2817.0
+8  3799         2390.0
+9   218         2204.0
+
+Revenue Trend Over Time (Monthly):
+     month  total_revenue
+0  2022-06        25259.0
+1  2022-07        32175.0
+2  2022-08        42513.0
+3  2022-09        46572.0
+
+Revenue Distribution Across Colors:
+              color  total_revenue
+0         Dark Blue       112364.0
+1        Light Blue         7337.0
+2             Black         4428.0
+3         Grey Wash         2390.0
+4          Mid Wash         2043.0
+5         Navy Blue         1693.0
+6                 B         1491.0
+7         Dark Wash         1311.0
+8                 C          975.0
+9              Blue          878.0
+10             Gray          815.0
+11                A          815.0
+12        Thin Blue          785.0
+13             Rust          781.0
+14            Brown          691.0
+15            White          679.0
+16            Cream          610.0
+17                D          516.0
+18            Green          499.0
+19     Blue Stripes          496.0
+20           Matcha          456.0
+21    Midnight Blue          396.0
+22            Mocha          288.0
+23           Yellow          278.0
+24         Skintone          278.0
+25       Thin Black          268.0
+26                E          258.0
+27     Gray Stripes          255.0
+28    Black Stripes          248.0
+29          Mustard          245.0
+30       Light Wash          238.0
+31       Red Orange          228.0
+32             Pink          228.0
+33       Light Gray          228.0
+34    920 Navy blue          227.0
+35        922 Black          207.0
+36   922 Army green          207.0
+37  Cornflower Blue          198.0
+38           Maroon          191.0
+
